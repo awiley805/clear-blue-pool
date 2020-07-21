@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    border-bottom: solid 1px slateblue;
+}
+
+.header-branding {
+    color: #00BFFF !important;
+}
+
+#showcase {
+    background: url(Img/Home/pool_showcase.jpg);
+    height: 550px;
+    background-position: center;
+    margin-top: -75px;
+}
+
+#showcase h1{
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+hr{
+    border-top: 1.1px solid #fff;
+    opacity: 0.8;
+    width: 28%;
+    margin-left: 0px;
+    text-shadow: 1px 0px black;
+}
+
+#showcase p{
+    color: #fff;
+    letter-spacing: 1.2px;
+}
+
+.showcase{
+ position: absolute;
+ border: 1px blue solid;
+ border-radius: 25px;
+ margin-top: 225px;
+ width: 450px;
+ padding: 25px;
+ background: rgba(0, 0, 0, 0.5);
+}
+
+@media(max-width: 600px){
+  .showcase{
+    left: 15px;
+    padding: 15px;
+  }
+}
+
+#services img{
+    width: 100%;
+    height: 250px;
+}
+
+#about{
+    background-color: #f5f5f5;
+
+}
+#about img{
+    width: 100%;
+    height: 350px;
+}
+
+#about button{
+    width: 25%;
+    margin-top: 15px;
+}
+
+#about a{
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+ .about{
+    margin-top: -75px;
+  }
+  #about{
+    height: 800px;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+ .about{
+    margin-top: -75px;
+  }
+  #about{
+    height: 875px;
+  }
+  #about button{
+    width: 100%;
+  }
+}
+
+#philosophy img{
+  width: 100%;
+  height: 350px;
+}
+
+#philosophy button{
+    width: 25%;
+    margin-top: 15px;
+}
+
+#philosophy a{
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 826px) {
+  .philosophy{
+     margin-top: -25px;
+   }
+  #philosophy{
+    height: 800px;
+    margin-top: -75px;
+  }
+  #philosophy img{
+    margin-top: -50px;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  .philosophy{
+     margin-top: -25px;
+   }
+  #philosophy{
+    height: 825px;
+    margin-top: -75px;
+  }
+  #philosophy img{
+    margin-top: -50px;
+  }
+  #philosophy button{
+    width: 100%;
+  }
+}
+
+#parallax{
+    color: white;
+    text-shadow: 1px 0px black;
+}
+
+#parallax h2{
+    margin-top: 60px;
+}
+
+.jumbotron{
+    background-image: url(Img/Home/swimming-pool-parralax.jpg);
+    height: 400px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#build img{
+    width: 100%;
+    height: 600px;
+}
+
+#build h4{
+    margin-top: 15px;
+}
+
+#build button{
+    width: 15%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 1000px) {
+ #build button{
+    width: 25%;
+  }
+  #build img{
+    width: 100%;
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+ #build button{
+    width: 100%;
+  }
+}
+
+#projects{
+    background: #f5f5f5;
+    height: 650px;
+    color: #000;
+}
+
+@media(max-width: 1000px){
+  #projects{
+    height: 1150px;
+  }
+}
+
+#projects h2{
+    margin-top: 25px;
+}
+
+#projects h4{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+#projects img{
+  width: 100%;
+  height: 200px;
+}
+
+.projects-img{
+    width: 100%;
+    height: 200px;
+}
+
+#projects h5{
+  text-align: center;
+  border: 1px solid black;
+  position: relative;
+  bottom: 75px;
+  color: white;
+  background: rgba(0,0,0,0.6);
+}
+
+#projects img:hover{
+  animation: shake 0.5s;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+#customers{
+    background-image: url(Img/Home/customers.jpg);
+    height: 500px;
+    background-position: center;
+}
+
+#customers h2{
+    margin-top: 25px;
+    color: #fff;
+}
+
+#customers .reviews{
+    max-width: 620px;
+    color: #fff;
+    margin: auto;
+    margin-top: 25px;
+    padding: 45px;
+    border: 1px blue solid;
+    border-radius: 25px;
+    background: rgba(0,0,0,0.6)
+}
+
+#customers button{
+  background: none;
+  border: 2px slateblue solid;
+  border-radius: 25px;
+  color: slateblue;
+  padding: 5px 25px;
+}
+
+@media(max-width: 1000px){
+  #customers{
+    height: 475px;
+  }
+}
+
+@media(max-width:525px){
+  #customers{
+    height: 500px;
+  }
+}
+
+#contact{
+    height: 200px;
+    background: #f5f5f5;
+}
+
+#contact h4{
+    margin-top: 100px;
+}
+
+#contact button{
+    margin-top: 100px;
+}
+
+@media(max-width: 750px){
+  #contact{
+    height: 225px;
+  }
+  .contact{
+     margin-top: -50px;
+  }
+  .contact-us{
+    margin-top: -75px;
+  }
+}
+
+#products{
+  height: 150px;
+}
+
+#products img{
+  width: 75%;
+  height: 75px;
+}
+
+.products{
+  margin-top: 75px;
+}
+
+@media(max-width: 750px){
+  #products{
+    height: 200px;
+  }
+  #products img{
+    padding: 15px;
+  }
+  .products{
+    margin-top: 50px;
+  }
+}
+
+footer{
+    background: black;
+    color: #fff;
+}
+
+footer i{
+    padding: 10px;
+    margin: 0px 10px;
+    font-size: 24px;
+    border: 3px solid blue;
+    border-radius: 15px;
+    color: darkblue;
+    background: white;
+}
